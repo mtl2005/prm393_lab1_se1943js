@@ -9,12 +9,9 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         leading: const Icon(Icons.menu),
         title: const Text("Home page"),
-        actions: [IconButton(onPressed: () {}, icon: Icon(Icons.search))],
+        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.search))],
       ),
       body: BodyWidget(),
     );
-
-    // TODO: implement build
-    throw UnimplementedError();
   }
 }

@@ -1,13 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:he194011_leminhtam/UI/Widget/ProductWidget.dart';
 
 class BodyWidget extends StatelessWidget {
   const new({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Image.asset('asserts/images/images.jpeg'),
-      /*child: RichText(
+    // return Center(
+    //   child: RichText(
+    //     text: TextSpan(
+    //       text: "Xin chào ",
+    //       style: const TextStyle(color: Colors.black, fontSize: 18),
+    //       children: <TextSpan>[
+    //         const TextSpan(
+    //           text: "Các bạn",
+    //           style: TextStyle(
+    //             color: Colors.red,
+    //             fontWeight: FontWeight.bold,
+    //             fontSize: 18,
+    //           ),
+    //         ),
+    //       ],
+    //     ),
+    //   ),
+
+    /*child: RichText(
         text: const TextSpan(
           text: "Xin Chao",
           children: <TextSpan>[
@@ -23,7 +40,7 @@ class BodyWidget extends StatelessWidget {
         ),
       ),*/
 
-      /*
+    /*
       child: Text(
         "Hello everyone",
         selectionColor: Colors.cyan,
@@ -33,6 +50,6 @@ class BodyWidget extends StatelessWidget {
           color: Colors.red,
         ),
       ),*/
-    );
+    return Productwidget();
   }
 }
