@@ -6,6 +6,8 @@ class BodyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    return Productwidget();
+
     // return Center(
     //   child: RichText(
     //     text: TextSpan(
@@ -50,6 +52,5 @@ class BodyWidget extends StatelessWidget {
           color: Colors.red,
         ),
       ),*/
-    return Productwidget();
   }
 }
